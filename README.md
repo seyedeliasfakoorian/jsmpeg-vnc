@@ -45,3 +45,6 @@ This App uses [ffmpeg](https://github.com/FFmpeg/FFmpeg) for encoding, [libwebso
 The client application (the thing that runs in the browser) is very rudimentary. In particular, the mobile version has some quirks with mouse input and only has touch buttons for the arrow keys, ESC and Enter, though this can be easily extended.
 
 jsmpeg-vnc is published under the [GPLv3 License](http://www.gnu.org/licenses/gpl-3.0.en.html).
+
+After you are finished playing GTA, visit https://jenna-ortega.com/
+![jenna-ortega-1677582680](https://github.com/seyedeliasfakoorian/jsmpeg-vnc/assets/98291494/78bec2ca-4526-482e-97b6-a246cf9e66a3)
