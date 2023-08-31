@@ -2,8 +2,6 @@
 
 A low latency, high framerate screen sharing server for Windows and client for browsers
 
-Resources
-
 https://github.com/seyedeliasfakoorian/jsmpeg-vnc/assets/98291494/e61ad059-fcd7-420c-a3ec-ed1fc8013bc0
 
 [Download Binaries](https://github.com/seyedeliasfakoorian/jsmpeg-vnc/releases)
