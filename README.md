@@ -37,10 +37,13 @@ Capturing and encoding 1920x1080 video narrowly amounts to 60fps on my system an
 
 If Windows complains about a missing MSVCR100.dll, install the [Microsoft Visual C++ 2010 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=5555).
 
+## Games you can't play on jsmpeg-vnc
+
+If you want to play of 1995 PSX game wipEout, you have to [click here](https://github.com/phoboslab/wipeout-rewrite.git)
 
 ## Technology & License
 
-This App uses [ffmpeg](https://github.com/FFmpeg/FFmpeg) for encoding, [libwebsockets](https://github.com/warmcat/libwebsockets) for the WebSocket server and [jsmpeg](https://github.com/phoboslab/jsmpeg) for decoding in the browser. Note that the jsmpeg version in this repository has been modified to get rid of an extra frame of latency. The server sends each frame with a custom header, so the resulting WebSocket stream is not a valid MPEG video anymore.
+This App uses [ffmpeg](https://github.com/FFmpeg/FFmpeg.git) for encoding, [libwebsockets](https://github.com/warmcat/libwebsockets.git) for the WebSocket server and [jsmpeg](https://github.com/phoboslab/jsmpeg.git) for decoding in the browser. Note that the jsmpeg version in this repository has been modified to get rid of an extra frame of latency. The server sends each frame with a custom header, so the resulting WebSocket stream is not a valid MPEG video anymore.
 
 The client application (the thing that runs in the browser) is very rudimentary. In particular, the mobile version has some quirks with mouse input and only has touch buttons for the arrow keys, ESC and Enter, though this can be easily extended.
 
