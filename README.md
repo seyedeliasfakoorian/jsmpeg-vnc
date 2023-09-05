@@ -6,7 +6,6 @@ https://github.com/seyedeliasfakoorian/jsmpeg-vnc/assets/98291494/e61ad059-fcd7-
 
 [Download Binaries](https://github.com/seyedeliasfakoorian/jsmpeg-vnc/releases)
 
-
 ## Usage & Performance Considerations
 
 ```
