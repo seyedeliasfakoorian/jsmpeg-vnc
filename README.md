@@ -4,6 +4,8 @@ A low latency, high framerate screen sharing server for Windows and client for b
 
 [Download Binaries](https://github.com/seyedeliasfakoorian/jsmpeg-vnc/releases)
 
+[More Info](https://eliasfakooriancom.godaddysites.com/blog/f/jsmpeg-vnc-preview-from-wipeout)
+
 ## Usage & Performance Considerations
 
 ```
