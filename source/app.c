@@ -115,12 +115,12 @@ int app_on_http_req(app_t *self, libwebsocket *socket, char *request) {
 		libwebsockets_serve_http_file(self->server->context, socket, "client/index.html", "text/html; charset=utf-8", NULL);
 		return true;
 	}
-	else if( strcmp(request, "/jsmpg.js") == 0 ) {
-		libwebsockets_serve_http_file(self->server->context, socket, "client/jsmpg.js", "text/javascript; charset=utf-8", NULL);
+	else if( strcmp(request, "/jsmpg.mm") == 0 ) {
+		libwebsockets_serve_http_file(self->server->context, socket, "client/jsmpg.mm", "text/javascript; charset=utf-8", NULL);
 		return true;
 	}
-	else if( strcmp(request, "/jsmpg-vnc.js") == 0 ) {
-		libwebsockets_serve_http_file(self->server->context, socket, "client/jsmpg-vnc.js", "text/javascript; charset=utf-8", NULL);
+	else if( strcmp(request, "/jsmpg-vnc.mm") == 0 ) {
+		libwebsockets_serve_http_file(self->server->context, socket, "client/jsmpg-vnc.mm", "text/javascript; charset=utf-8", NULL);
 		return true;
 	}
 	return false;

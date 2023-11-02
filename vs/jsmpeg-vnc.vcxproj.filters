@@ -27,7 +27,7 @@
     <None Include="..\client\index.html">
       <Filter>client</Filter>
     </None>
-    <None Include="..\client\jsmpg.js">
+    <None Include="..\client\jsmpg.mm">
       <Filter>client</Filter>
     </None>
   </ItemGroup>
