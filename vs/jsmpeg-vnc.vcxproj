@@ -12,7 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\client\index.html" />
-    <None Include="..\client\jsmpg.mm" />
+    <None Include="..\client\jsmpg.m" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\app.c" />
